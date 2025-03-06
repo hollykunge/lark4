@@ -32,31 +32,8 @@
         </button>
         <div data-sidebar-collapse-hide>
           <ul id="dropdown-dashboards" class="{{ if not (eq .Params.group "dashboards") }}hidden{{ end }} space-y-2 py-2">
-            <li>
-              <a
-                href="{{ "homepages/saas/" | relURL }}"
-                class="{{ if (eq .Params.page "saas") }} hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 {{ else }} hover:bg-gray-100 dark:hover:bg-gray-700 {{ end }} group flex w-full items-center rounded-lg p-2 pl-10 text-base font-medium text-gray-900 dark:text-white"
-                data-sidebar-collapse-subitem
-                >SaaS</a
-              >
-            </li>
 
-            <li>
-              <a
-                href="{{ "homepages/crypto/" | relURL }}"
-                class="{{ if (eq .Params.page "crypto") }}  hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 {{ else }} hover:bg-gray-100 dark:hover:bg-gray-700 {{ end }} group flex w-full items-center rounded-lg p-2 pl-10 text-base font-medium text-gray-900 dark:text-white"
-                data-sidebar-collapse-subitem
-                >Crypto</a
-              >
-            </li>
-            <li>
-              <a
-                href="{{ "homepages/music/" | relURL }}"
-                class="{{ if (eq .Params.page "music") }}  hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 {{ else }} hover:bg-gray-100 dark:hover:bg-gray-700 {{ end }} group flex w-full items-center rounded-lg p-2 pl-10 text-base font-normal text-gray-900 transition duration-75 dark:text-white"
-                data-sidebar-collapse-subitem
-                >Music</a
-              >
-            </li>
+
             <li>
               <a
                 href="{{ "homepages/project-management/" | relURL }}"
@@ -132,22 +109,7 @@
                 >AI Chat</a
               >
             </li>
-            <li>
-              <a
-                href="{{ "/pages/datatables/" | relURL }}"
-                class="{{ if (eq .Params.page "datatables") }}  hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 {{ else }} hover:bg-gray-100 dark:hover:bg-gray-700 {{ end }} group flex w-full items-center rounded-lg p-2 pl-10 text-base font-medium text-gray-900 dark:text-white"
-                data-sidebar-collapse-subitem
-                >Data Tables</a
-              >
-            </li>
-            <li>
-              <a
-                href="{{ "/pages/notifications/" | relURL }}"
-                class="{{ if (eq .Params.page "notifications") }}  hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 {{ else }} hover:bg-gray-100 dark:hover:bg-gray-700 {{ end }} group flex w-full items-center rounded-lg p-2 pl-10 text-base font-medium text-gray-900 dark:text-white"
-                data-sidebar-collapse-subitem
-                >Notifications</a
-              >
-            </li>
+
             <li>
               <a
                 href="{{ "/pages/events/" | relURL }}"
@@ -164,22 +126,7 @@
                 >Integrations</a
               >
             </li>
-            <li>
-              <a
-                href="{{ "/pages/api/" | relURL }}"
-                class="{{ if (eq .Params.page "api") }} hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 {{ else }} hover:bg-gray-100 dark:hover:bg-gray-700 {{ end }} group flex w-full items-center rounded-lg p-2 pl-10 text-base font-medium text-gray-900 dark:text-white"
-                data-sidebar-collapse-subitem
-                >API Keys</a
-              >
-            </li>
-            <li>
-              <a
-                href="{{ "/pages/pricing/" | relURL }}"
-                class="{{ if (eq .Params.page "pricing") }}  hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 {{ else }} hover:bg-gray-100 dark:hover:bg-gray-700 {{ end }} group flex w-full items-center rounded-lg p-2 pl-10 text-base font-medium text-gray-900 dark:text-white"
-                data-sidebar-collapse-subitem
-                >Pricing</a
-              >
-            </li>
+
           </ul>
         </div>
       </li>
@@ -239,14 +186,7 @@
                 >Profile</a
               >
             </li>
-            <li>
-              <a
-                href="{{ "users/feed/" | relURL }}"
-                class="{{ if (eq .Params.page "feed") }}  hover:bg-gray-100 dark:hover:bg-gray-700 bg-gray-100 dark:bg-gray-700 {{ else }} hover:bg-gray-100 dark:hover:bg-gray-700 {{ end }} group flex w-full items-center rounded-lg p-2 pl-10 text-base font-medium text-gray-900 dark:text-white"
-                data-sidebar-collapse-subitem
-                >Activity</a
-              >
-            </li>
+
           </ul>
         </div>
       </li>

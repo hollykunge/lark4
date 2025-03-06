@@ -1,159 +1,142 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:60939/pages/</loc>
+    <loc>http://localhost:53566/pages/notifications/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/products/</loc>
+    <loc>http://localhost:53566/pages/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:60939/</loc>
+    <loc>http://localhost:53566/pages/products/</loc>
     <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:60939/project-management/project-management-table/</loc>
+    <loc>http://localhost:53566/</loc>
+    <lastmod>2023-01-01T00:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:60939/audio/</loc>
+    <loc>http://localhost:53566/project-management/project-management-table/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/authentication/</loc>
+    <loc>http://localhost:53566/audio/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/homepages/</loc>
+    <loc>http://localhost:53566/authentication/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/project-management/</loc>
+    <loc>http://localhost:53566/homepages/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/status/</loc>
+    <loc>http://localhost:53566/project-management/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/status/404/</loc>
+    <loc>http://localhost:53566/status/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/status/500/</loc>
+    <loc>http://localhost:53566/status/404/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/ai-chat/</loc>
+    <loc>http://localhost:53566/status/500/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/project-management/all-projects/</loc>
+    <loc>http://localhost:53566/pages/ai-chat/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/api/</loc>
+    <loc>http://localhost:53566/project-management/all-projects/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/audio/call-ended/</loc>
+    <loc>http://localhost:53566/audio/call-ended/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/audio/in-call/</loc>
+    <loc>http://localhost:53566/audio/in-call/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/audio/incoming-call/</loc>
+    <loc>http://localhost:53566/audio/incoming-call/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/audio/outgoing-call/</loc>
+    <loc>http://localhost:53566/audio/outgoing-call/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/calendar/</loc>
+    <loc>http://localhost:53566/pages/calendar/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/chat-room/</loc>
+    <loc>http://localhost:53566/pages/chat-room/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/homepages/crypto/</loc>
+    <loc>http://localhost:53566/pages/events/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/datatables/</loc>
+    <loc>http://localhost:53566/authentication/forgot-password/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/events/</loc>
+    <loc>http://localhost:53566/pages/integrations/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/authentication/forgot-password/</loc>
+    <loc>http://localhost:53566/pages/kanban/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/integrations/</loc>
+    <loc>http://localhost:53566/status/maintenance/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/kanban/</loc>
+    <loc>http://localhost:53566/authentication/profile-lock/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/status/maintenance/</loc>
+    <loc>http://localhost:53566/project-management/all-files/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/homepages/music/</loc>
+    <loc>http://localhost:53566/homepages/project-management/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/notifications/</loc>
+    <loc>http://localhost:53566/project-management/project-summary/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/pricing/</loc>
+    <loc>http://localhost:53566/project-management/my-projects/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/authentication/profile-lock/</loc>
+    <loc>http://localhost:53566/authentication/reset-password/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/project-management/all-files/</loc>
+    <loc>http://localhost:53566/status/server-status/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/homepages/project-management/</loc>
+    <loc>http://localhost:53566/users/settings/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/project-management/project-summary/</loc>
+    <loc>http://localhost:53566/authentication/sign-in/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/project-management/my-projects/</loc>
+    <loc>http://localhost:53566/authentication/sign-up/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/authentication/reset-password/</loc>
+    <loc>http://localhost:53566/status/status-history/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/homepages/saas/</loc>
+    <loc>http://localhost:53566/pages/text-editor/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/status/server-status/</loc>
+    <loc>http://localhost:53566/project-management/to-do/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/users/settings/</loc>
+    <loc>http://localhost:53566/authentication/two-factor/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/authentication/sign-in/</loc>
+    <loc>http://localhost:53566/project-management/to-do-upcoming/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/authentication/sign-up/</loc>
+    <loc>http://localhost:53566/status/uptime/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/status/status-history/</loc>
+    <loc>http://localhost:53566/users/feed/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/pages/text-editor/</loc>
+    <loc>http://localhost:53566/users/profile/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/project-management/to-do/</loc>
+    <loc>http://localhost:53566/users/list/</loc>
   </url>
   <url>
-    <loc>http://localhost:60939/authentication/two-factor/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:60939/project-management/to-do-upcoming/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:60939/status/uptime/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:60939/users/feed/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:60939/users/profile/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:60939/users/list/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:60939/users/</loc>
+    <loc>http://localhost:53566/users/</loc>
   </url>
 </urlset>
