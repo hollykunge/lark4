@@ -23,7 +23,7 @@ footer: true
         <svg class="-ms-0.5 me-1.5 h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
           <path
             fill-rule="evenodd"
-            d="M5 5c.6 0 1-.4 1-1a1 1 0 1 1 2 0c0 .6.4 1 1 1h1c.6 0 1-.4 1-1a1 1 0 1 1 2 0c0 .6.4 1 1 1h1c.6 0 1-.4 1-1a1 1 0 1 1 2 0c0 .6.4 1 1 1a2 2 0 0 1 2 2v1c0 .6-.4 1-1 1H4a1 1 0 0 1-1-1V7c0-1.1.9-2 2-2ZM3 19v-7c0-.6.4-1 1-1h16c.6 0 1 .4 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6-6c0-.6-.4-1-1-1a1 1 0 1 0 0 2c.6 0 1-.4 1-1Zm2 0a1 1 0 1 1 2 0c0 .6-.4 1-1 1a1 1 0 0 1-1-1Zm6 0c0-.6-.4-1-1-1a1 1 0 1 0 0 2c.6 0 1-.4 1-1ZM7 17a1 1 0 1 1 2 0c0 .6-.4 1-1 1a1 1 0 0 1-1-1Zm6 0c0-.6-.4-1-1-1a1 1 0 1 0 0 2c.6 0 1-.4 1-1Zm2 0a1 1 0 1 1 2 0c0 .6-.4 1-1 1a1 1 0 0 1-1-1Z"
+            d="M5 5c.6 0 1-.4 1-1a1 1 0 1 1 2 0c0 .6.4 1 1 1h1c.6 0 1-.4 1-1a1 1 0 1 1 2 0c0 .6.4 1 1 1h1c.6 0 1-.4 1-1a1 1 0 1 1 2 0c0 .6.4 1 1 1a2 2 0 0 1 2 2v1c0 .6-.4 1-1 1H4a1 1 0 0 1-1-1V7c0-1.1.9-2 2-2ZM3 19v-7c0-.6.4-1 1-1h16a1 1 0 0 1 1 1v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Zm6-6c0-.6-.4-1-1-1a1 1 0 1 0 0 2c.6 0 1-.4 1-1Zm2 0a1 1 0 1 1 2 0c0 .6-.4 1-1 1a1 1 0 0 1-1-1Zm6 0c0-.6-.4-1-1-1a1 1 0 1 0 0 2c.6 0 1-.4 1-1ZM7 17a1 1 0 1 1 2 0c0 .6-.4 1-1 1a1 1 0 0 1-1-1Zm6 0c0-.6-.4-1-1-1a1 1 0 1 0 0 2c.6 0 1-.4 1-1Zm2 0a1 1 0 1 1 2 0c0 .6-.4 1-1 1a1 1 0 0 1-1-1Z"
             clip-rule="evenodd"
           />
         </svg>
@@ -142,7 +142,7 @@ footer: true
           </ul>
         </div>
         <div class="shrink-0">
-          <a href="{{< ref "e-commerce/products" >}}" class="inline-flex items-center rounded-lg px-3 py-2 text-xs font-semibold uppercase text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700 sm:text-sm">
+          <a href="{{< ref "pages/products" >}}" class="inline-flex items-center rounded-lg px-3 py-2 text-xs font-semibold uppercase text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700 sm:text-sm">
             Products Report
             <svg class="ms-1 h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"></path>
@@ -349,14 +349,6 @@ footer: true
             </li>
           </ul>
         </div>
-        <div class="shrink-0">
-          <a href="{{< ref "homepages/marketing" >}}" class="inline-flex items-center rounded-lg px-3 py-2 text-xs font-semibold uppercase text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700 sm:text-sm">
-            Traffic Report
-            <svg class="ms-1 h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"></path>
-            </svg>
-          </a>
-        </div>
       </div>
     </div>
     <div class="rounded-lg bg-white p-4 shadow dark:bg-gray-800 md:p-6">
@@ -484,31 +476,13 @@ footer: true
         </div>
       </div>
       <div id="cost-per-click-chart"></div>
-      <div class="mt-2.5 grid grid-cols-1 items-center justify-between border-t border-gray-200 dark:border-gray-700">
-        <div class="pt-5">
-          <a
-            href="{{< ref "homepages/marketing" >}}"
-            class="inline-flex items-center rounded-lg bg-primary-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-primary-800 focus:outline-none focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
-          >
-            <svg class="-ms-0.5 me-1.5 h-4 w-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
-              <path
-                fill-rule="evenodd"
-                d="M9 7V2.221a2 2 0 0 0-.5.365L4.586 6.5a2 2 0 0 0-.365.5H9Zm2 0V2h7a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V9h5a2 2 0 0 0 2-2Zm-1 9a1 1 0 1 0-2 0v2a1 1 0 1 0 2 0v-2Zm2-5a1 1 0 0 1 1 1v6a1 1 0 1 1-2 0v-6a1 1 0 0 1 1-1Zm4 4a1 1 0 1 0-2 0v3a1 1 0 1 0 2 0v-3Z"
-                clip-rule="evenodd"
-              />
-            </svg>
-
-            View full report
-          </a>
-        </div>
-      </div>
     </div>
   </div>
   <div class="my-4 grid grid-cols-1 xl:gap-4 2xl:grid-cols-3">
     <div class="col-span-2 rounded-lg bg-white p-4 shadow dark:bg-gray-800 md:p-6">
       <div class="mb-4 flex items-center justify-between border-b border-gray-200 pb-4 dark:border-gray-700 md:mb-6 md:pb-6">
         <h5 class="me-1 text-xl font-bold leading-none text-gray-900 dark:text-white">Smart Chat</h5>
-        <a href="#" class="inline-flex items-center rounded-lg px-3 py-2 font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700"> View all </a>
+        <a href="{{< ref "pages/products" >}}" class="inline-flex items-center rounded-lg px-3 py-2 font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700"> View all </a>
       </div>
       <!-- Chat -->
       <form class="overflow-y-auto lg:max-h-[60rem] 2xl:max-h-fit mb-4">
@@ -1821,7 +1795,7 @@ footer: true
       <div class="rounded-lg bg-white p-4 shadow dark:bg-gray-800 md:p-6">
         <div class="mb-4 flex items-center justify-between">
           <h3 class="text-xl font-bold leading-none text-gray-900 dark:border-gray-700 dark:text-white">Customers</h3>
-          <a href="{{< ref "e-commerce/transactions" >}}" class="inline-flex items-center rounded-lg px-3 py-2 font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700"> View transactions </a>
+          <a href="{{< ref "pages/products" >}}" class="inline-flex items-center rounded-lg px-3 py-2 font-medium text-primary-700 hover:bg-gray-100 dark:text-primary-500 dark:hover:bg-gray-700"> View transactions </a>
         </div>
         <div class="flow-root">
           <ul role="list" class="divide-y divide-gray-200 rounded-lg border border-gray-200 bg-gray-50 p-4 dark:divide-gray-600 dark:border-gray-600 dark:bg-gray-700">

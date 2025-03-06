@@ -46,4 +46,9 @@ module.exports = {
   optimization: {
     minimizer: [new CssMinimizerPlugin()],
   },
+  stats: {
+    warningsFilter: [
+      /autoprefixer/,
+    ],
+  },
 };
